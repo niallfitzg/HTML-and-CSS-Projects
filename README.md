@@ -1,2 +1,5 @@
 # HTML and CSS Projects
- This is repository of my HTML and CSS projects for Pitman Training
+
+Introduction
+
+ This is a repository of HTML and CSS projects for Pitman Training
