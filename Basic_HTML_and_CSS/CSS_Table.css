@@ -1,0 +1,8 @@
+table {
+	color: white;
+	background: green;
+	Border: 1px solid black;
+}
+tr:hover {
+	Background-color:blue;
+}
