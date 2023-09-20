@@ -109,3 +109,6 @@ ANIMATION EFFECT
     50% {
         transform: translateY(300px);
     })
+
+    visibility: hidden;
+    visibility: visible
