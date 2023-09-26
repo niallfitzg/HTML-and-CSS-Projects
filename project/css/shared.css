@@ -49,7 +49,7 @@ h1::after { /* This is the underline */
 }
     
 h2 {
-    line-height: 50px
+    line-height: 50px;
     color: #E91C1C;
 }
 
