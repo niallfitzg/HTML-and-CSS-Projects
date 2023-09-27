@@ -6,9 +6,9 @@
 
 ## Projects
 
-[Space Station site](https://github.com/niallfitzg/HTML-and-CSS-Projects/tree/ca92209c9ea753f7c63360dbac57a008ec4455f8/project)
-[Movie Theatre Site](https://github.com/niallfitzg/HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/bootstrap4_project)
-[Student Portfolio Site](https://github.com/niallfitzg/HTML-and-CSS-Projects/tree/main/Student_Portfolio)
+- [Space Station site](https://github.com/niallfitzg/HTML-and-CSS-Projects/tree/ca92209c9ea753f7c63360dbac57a008ec4455f8/project)
+- [Movie Theatre Site](https://github.com/niallfitzg/HTML-and-CSS-Projects/tree/main/Basic_HTML_and_CSS/bootstrap4_project)
+- [Student Portfolio Site](https://github.com/niallfitzg/HTML-and-CSS-Projects/tree/main/Student_Portfolio)
 
 ## Space Station Site
 This page is an example home page for a Space travel company. It's styled using CSS and contains anvbar, image containers, and a form.
