@@ -1,38 +1,214 @@
-/* Style the text areas */
+/* Page styling */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    }
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* Headings */
 h1,
 h2,
 h3 {
     font-family: 'Times New Roman', Times, serif;
-    
 }
 
-.nav-link {
-    font-size: 20px;
-   
+/* Space for Sections */
+section {
+    padding: 30px 15px;
 }
 
+/* Center the main title */
+#home h1 {
+    text-align: center;
+}
+
+/* YouTube embed */
+iframe {
+    width: 100%;
+    max-width: 700px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Basic horizontal navigation layout */
+ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+
+
+/* Flexbox layout for gallery rows */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* allows images to adapt to smaller screens */
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Controls each column’s width and minimum size */
+.column {
+    flex: 0 0 23%;
+    min-width: 220px;
+}
+
+/* Thumbnail styling with subtle hover effect */
+img.hover-shadow {
+    width: 95%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+        0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+
+/* Main modal container */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+/* Modal content area for images */
+.modal-content {
+    margin: auto;
+    background: #111;
+    width: 45%;
+    max-width: 800px;
+    position: relative;
+}
+
+/* Each slide inside the lightbox */
+.mySlides {
+    display: none;
+}
+
+/* Close button positioning */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* Next & previous slide controls */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* Caption under the lightbox image */
+.caption-container {
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+/* Thumbnail strip styling inside the modal */
+img.demo {
+    opacity: 0.6;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* Active thumbnail or hover state */
+img.demo:hover,
+.active {
+    opacity: 1;
+}
+
+/* CONTACT FORM */
+/* Align the form vertically and set width */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+/* Input fields */
 .rsvp {
-    font-size: 14px;
-   
-}
-
-/* Style the form inputs */
-
-
-.rsvp {
-    width: 10%;
+    width: 100%;
     margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
     border: 2px solid #cccccc;
-    border-radius: 5px;
-       
 }
 
+/* Input focus state */
 .rsvp:focus {
     border-color: #0077cc;
-    /* A different border color when the input is focused */
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Keep thumbnails on one centered row */
+.modal-content .row {
+    display: flex;
+    flex-wrap: nowrap;        
+    justify-content: center;  
+    align-items: center;     
+    gap: 12px;
+    width: 100%;
+}
+
+/* Columns expand evenly */
+.modal-content .column {
+    flex: 0 0 auto;        
+}
+
+/* Thumbnail image size */
+.modal-content .column img.demo {
+    height: 140px;            
+    width: auto;
+    cursor: pointer;
 }
