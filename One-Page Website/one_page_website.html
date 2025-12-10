@@ -4,11 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Autopoint Car Sales</title>
-
-    <!-- CSS -->
     <link rel="stylesheet" href="./css/one_page_website.css">
-
-    <!-- JS -->
     <script src="./js/one_page_website.js" defer></script>
 </head>
 
@@ -37,7 +33,6 @@
         </iframe>
     </section>
 
-
     <!-- GALLERY GRID -->
     <section id="gallery">
         <h1>Gallery</h1>
@@ -56,7 +51,6 @@
                 <img src="./images/thumb/thumbnail_4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
             </div>
         </div>
-
 
         <!-- LIGHTBOX MODAL -->
         <div id="myModal" class="modal">
@@ -88,150 +82,29 @@
                     <p id="caption"></p>
                 </div>
 
+                <!-- THUMBNAILS INSIDE MODAL -->
                 <div class="row">
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_1.png" onclick="currentSlide(1)"
-                            alt="Nissan"></div>
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_2.png" onclick="currentSlide(2)"
-                            alt="Nissan"></div>
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_3.png" onclick="currentSlide(3)"
-                            alt="Peugeot"></div>
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_4.png" onclick="currentSlide(4)"
-                            alt="Hyundai"></div>
+                    <div class="column">
+                        <img class="demo" src="./images/thumb/thumbnail_1.png" onclick="currentSlide(1)"
+                            alt="Nissan Leaf">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="./images/thumb/thumbnail_2.png" onclick="currentSlide(2)"
+                            alt="Nissan Qashqai">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="./images/thumb/thumbnail_3.png" onclick="currentSlide(3)" alt="Peugeot">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="./images/thumb/thumbnail_4.png" onclick="currentSlide(4)" alt="Hyundai">
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
 
-
-    <!-- CONTACT -->
-    <section id="contact">
-        <h1>Get in Touch</h1>
-
-        <form action="" method="post">
-            <input class="rsvp" type="text" name="first_name" placeholder="First Name">
-            <input class="rsvp" type="text" name="last_name" placeholder="Last Name">
-            <input class="rsvp" type="text" name="email" placeholder="Email Address">
-            <input class="rsvp" type="text" name="phone" placeholder="Phone Number">
-            <br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-        www.autopoint.com
-    </footer>
-
-</body>
-
-</html><!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Autopoint Car Sales</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/one_page_website.css">
-
-    <!-- JS -->
-    <script src="./js/one_page_website.js" defer></script>
-</head>
-
-<body>
-
-    <!-- NAV -->
-    <div>
-        <ul>
-            <a href="#home">
-                <li>HOME</li>
-            </a>
-            <a href="#gallery">
-                <li>GALLERY</li>
-            </a>
-            <a href="#contact">
-                <li>ENQUIRE</li>
-            </a>
-        </ul>
-    </div>
-
-    <!-- HOME SECTION -->
-    <section id="home">
-        <h1>Autopoint <span>Used</span> Car Sales</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/abdy5QLhrlw" frameborder="0"
-            allowfullscreen>
-        </iframe>
-    </section>
-
-
-    <!-- GALLERY GRID -->
-    <section id="gallery">
-        <h1>Gallery</h1>
-
-        <div class="row">
-            <div class="column">
-                <img src="./images/thumb/thumbnail_1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
-            </div>
-            <div class="column">
-                <img src="./images/thumb/thumbnail_2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
-            </div>
-            <div class="column">
-                <img src="./images/thumb/thumbnail_3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
-            </div>
-            <div class="column">
-                <img src="./images/thumb/thumbnail_4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
-            </div>
-        </div>
-
-
-        <!-- LIGHTBOX MODAL -->
-        <div id="myModal" class="modal">
-            <span class="close" onclick="closeModal()">&times;</span>
-
-            <div class="modal-content">
-
-                <div class="mySlides">
-                    <img src="./images/cars/img_1.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <img src="./images/cars/img_2.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <img src="./images/cars/img_3.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides">
-                    <img src="./images/cars/img_4.jpg" style="width:100%">
-                </div>
-
-                <!-- Controls -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-
-                <div class="row">
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_1.png" onclick="currentSlide(1)"
-                            alt="Nissan"></div>
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_2.png" onclick="currentSlide(2)"
-                            alt="Nissan"></div>
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_3.png" onclick="currentSlide(3)"
-                            alt="Peugeot"></div>
-                    <div class="column"><img class="demo" src="./images/thumb/thumbnail_4.png" onclick="currentSlide(4)"
-                            alt="Hyundai"></div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <!-- CONTACT -->
+    <!-- CONTACT SECTION -->
     <section id="contact">
         <h1>Get in Touch</h1>
 
